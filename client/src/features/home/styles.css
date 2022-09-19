@@ -1,0 +1,39 @@
+.home-container {
+  margin: 5%;
+}
+
+.articles {
+  display: grid;
+  grid-gap: 26px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.article {
+  border: 1px solid lavenderblush;
+  padding: 10px;
+}
+
+.article > * {
+  display: inline-block;
+  padding: 4px 0;
+  margin: 4px 0;
+  width: 100%;
+}
+
+.content {
+  grid-area: content;
+  grid-column: span 2;
+  margin-top: 50px;
+}
+
+.sort-dropdown {
+  width: 10% !important;
+  height: fit-content;
+  margin-left: 90px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightblue;
+  text-align: center;
+}
