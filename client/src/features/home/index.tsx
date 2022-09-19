@@ -1,4 +1,3 @@
-/* eslint-disable no-debugger */
 import React, { FC, useCallback, useEffect, useMemo, useState } from 'react'
 
 import { useAppDispatch, useAppSelector } from 'app/hooks'
@@ -36,7 +35,6 @@ const ArticleList: FC = () => {
 
   const sortCategoryArticles = useCallback(
     (articles: Article[]): Article[] => {
-      debugger
       switch (sort) {
         case Sort.LOWTOHIGH:
           return _.orderBy(
