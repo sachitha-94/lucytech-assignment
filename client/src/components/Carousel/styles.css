@@ -1,0 +1,9 @@
+.carousal-wrapper {
+  background-color: lightblue;
+}
+.carousal-item {
+  height: 25%;
+}
+.carousal-item-img {
+  height: 200px;
+}

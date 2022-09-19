@@ -1,0 +1,13 @@
+.card-wrapper {
+  margin: 5px;
+}
+.card-item-footer {
+  height: 25%;
+}
+.card-item-img {
+  height: 200px;
+}
+
+.card-btn {
+  background-color: #f56548 !important;
+}
